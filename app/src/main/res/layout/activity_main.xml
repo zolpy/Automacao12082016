@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Led1"
+        android:id="@+id/btnLed1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Led2"
+        android:layout_below="@id/btnLed1"
+        android:id="@+id/btnLed2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Led3"
+        android:layout_below="@id/btnLed2"
+        android:id="@+id/btnLed3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Automatico"
+        android:layout_below="@id/btnLed3"
+        android:id="@+id/btnAutomatico" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aguardando..."
+        android:layout_below="@id/btnAutomatico"
+        android:id="@+id/txtResultado" />
+
+</RelativeLayout>
